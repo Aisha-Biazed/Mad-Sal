@@ -1,0 +1,48 @@
+name: med_sal_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.9
+  shared_preferences: ^2.2.2
+  flutter_animate: ^4.2.0+1
+  cupertino_icons: ^1.0.2
+  text_scroll: ^0.2.0
+  pinput: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_app.png"
+  remove_alpha_ios: true
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: assets/fonts/Almarai-Bold.ttf
+        - asset: assets/fonts/Almarai-ExtraBold.ttf
+        - asset: assets/fonts/Almarai-Light.ttf
+        - asset: assets/fonts/Almarai-Regular.ttf
+
