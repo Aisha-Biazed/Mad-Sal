@@ -3,6 +3,7 @@ import 'package:med_sal_app/bindings/login_biding.dart';
 import 'package:med_sal_app/view/screen/auth/check_email_screen.dart';
 import 'package:med_sal_app/view/screen/auth/field_login_screen.dart';
 import 'package:med_sal_app/view/screen/auth/verify_code_screen.dart';
+import 'package:med_sal_app/view/screen/categories/categories_screen.dart';
 import 'package:med_sal_app/view/screen/home/home_screen.dart';
 import 'package:med_sal_app/view/screen/settings/profile_screen.dart';
 import 'package:med_sal_app/view/screen/settings/reset_password_screen.dart';
@@ -38,5 +39,7 @@ List<GetPage<dynamic>>? routes = [
       name: AppRoute.resetPassword, page: () => const ResetPasswordScreen()),
   GetPage(name: AppRoute.profile, page: () => const ProfileScreen()),
   // home
-  GetPage(name: AppRoute.home, page: () => HomeScreen())
+  GetPage(name: AppRoute.home, page: () => HomeScreen()),
+  //Categories
+  GetPage(name: AppRoute.categories, page: () => CategoriesScreen())
 ];

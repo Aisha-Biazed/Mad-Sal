@@ -15,6 +15,8 @@ class AppRoute {
   //Home
   static const String home = "/home";
   static const String carDetails = "/car_details";
+  //Categories
+  static const String categories = "/categories";
   //navigation
   static const String navigation = "/navigation";
 }

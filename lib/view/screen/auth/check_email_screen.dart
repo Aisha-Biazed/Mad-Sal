@@ -6,8 +6,8 @@ import 'package:med_sal_app/core/shared/app_button.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 
 import '../../../core/constant/color_scheme/color_manger.dart';
+import '../../../core/constant/generated/assets.dart';
 import '../../../core/shared/app_text.dart';
-import '../../../generated/assets.dart';
 
 class CheckEmailScreen extends StatelessWidget {
   const CheckEmailScreen({Key? key}) : super(key: key);

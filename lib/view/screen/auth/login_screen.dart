@@ -6,9 +6,9 @@ import 'package:med_sal_app/core/constant/color_scheme/color_manger.dart';
 import 'package:med_sal_app/core/constant/router/app_routes.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
-import 'package:med_sal_app/generated/assets.dart';
 import 'package:med_sal_app/view/widgets/auth/custom_text_field.dart';
 
+import '../../../core/constant/generated/assets.dart';
 import '../../../core/shared/app_button.dart';
 
 class LoginScreen extends StatelessWidget {

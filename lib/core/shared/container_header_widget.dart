@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 
-import '../../core/constant/color_scheme/color_manger.dart';
-import '../../core/shared/app_text.dart';
+import '../constant/color_scheme/color_manger.dart';
+import 'app_text.dart';
 
 class ContainerHeaderWidget extends StatelessWidget {
   ContainerHeaderWidget(

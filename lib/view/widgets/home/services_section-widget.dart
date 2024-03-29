@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../core/constant/color_scheme/color_manger.dart';
+import '../../../core/constant/generated/assets.dart';
 import '../../../core/shared/app_image.dart';
 import '../../../core/shared/app_text.dart';
-import '../../../generated/assets.dart';
 
 class ServicesSectionWidget extends StatelessWidget {
   const ServicesSectionWidget({Key? key}) : super(key: key);

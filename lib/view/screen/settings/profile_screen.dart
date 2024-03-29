@@ -3,9 +3,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:med_sal_app/core/constant/color_scheme/color_manger.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
-import 'package:med_sal_app/generated/assets.dart';
-import 'package:med_sal_app/view/widgets/container_header_widget.dart';
+import 'package:med_sal_app/core/shared/container_header_widget.dart';
 
+import '../../../core/constant/generated/assets.dart';
 import '../../widgets/settings/card_profile_widget.dart';
 
 class ProfileScreen extends StatelessWidget {

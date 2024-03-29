@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:med_sal_app/view/widgets/container_header_widget.dart';
+import 'package:med_sal_app/core/shared/container_header_widget.dart';
 
 import '../../../core/constant/color_scheme/color_manger.dart';
 import '../../../core/constant/router/app_routes.dart';

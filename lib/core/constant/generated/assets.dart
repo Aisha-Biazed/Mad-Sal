@@ -8,13 +8,13 @@ class Assets {
   static const String fontsAlmaraiLight = 'assets/fonts/Almarai-Light.ttf';
   static const String fontsAlmaraiRegular = 'assets/fonts/Almarai-Regular.ttf';
   static const String iconsAlternateEmail = 'assets/icons/alternate_email.svg';
-  static const String iconsArrowBack = 'assets/icons/arrow_back.svg';
   static const String iconsArrowCircleLeft =
       'assets/icons/arrow_circle_left.svg';
   static const String iconsCalendarClock = 'assets/icons/calendar_clock.svg';
   static const String iconsCall = 'assets/icons/call.svg';
   static const String iconsClearNight = 'assets/icons/clear_night.svg';
   static const String iconsEdit = 'assets/icons/edit.svg';
+  static const String iconsArrowBack = 'assets/icons/arrow_back.svg';
   static const String iconsFilterAlt = 'assets/icons/filter_alt.svg';
   static const String iconsList = 'assets/icons/list.svg';
   static const String iconsMail = 'assets/icons/mail.svg';
@@ -26,7 +26,6 @@ class Assets {
   static const String iconsUser = 'assets/icons/user.svg';
   static const String imagesCheck = 'assets/images/check.png';
   static const String imagesClient = 'assets/images/client.png';
-  static const String imagesDocotorCat = 'assets/images/docotor_cat.png';
   static const String imagesDoctor = 'assets/images/doctor.png';
   static const String imagesError = 'assets/images/error.png';
   static const String imagesLoginImage = 'assets/images/login_image.png';
