@@ -23,6 +23,7 @@ class AppRoute {
   static const String pharmacies = "/pharmacies";
   static const String productsBooking = "/productsBooking";
   static const String servicesBooking = "/servicesBooking";
+  static const String details = "/details";
   //navigation
   static const String navigation = "/navigation";
 }

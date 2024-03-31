@@ -37,6 +37,7 @@ class Assets {
   static const String imagesClinc3 = 'assets/images/clinc3.png';
   static const String imagesClinc4 = 'assets/images/clinc4.png';
   static const String imagesClinicCat = 'assets/images/clinic_cat.png';
+  static const String imagesDetails = 'assets/images/details.png';
   static const String imagesDocotorCat = 'assets/images/docotor_cat.png';
   static const String imagesDoctor = 'assets/images/doctor.png';
   static const String imagesError = 'assets/images/error.png';

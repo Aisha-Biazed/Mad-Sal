@@ -19,7 +19,7 @@ class App extends StatelessWidget {
         LocaleController controller = Get.put(LocaleController());
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          initialRoute: AppRoute.servicesBooking,
+          initialRoute: AppRoute.home,
           translations: MyTranslation(),
           theme: controller.appTheme,
           locale: controller.language,
