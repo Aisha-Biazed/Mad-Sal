@@ -22,10 +22,12 @@ const _lightColorScheme = ColorScheme(
 class ColorManager {
   static Color primary = HexColor('#15AB98');
   static Color secondaryPrim = HexColor('#227B70');
+  static Color ThirdPrim = HexColor('#44C6B5');
   static Color primaryContainer = HexColor('#F1F1F1');
   static Color mainGrey = HexColor('#C6C6C6');
   static Color greyCard = HexColor('#FAF3F3');
   static Color greyIcon = HexColor('#938D8D');
+  static Color borderGrey = HexColor('#D9D9D9');
   static Color white = HexColor('#FFFFFF');
   static Color dark = HexColor('#000000');
   static Color grey = HexColor('#6A6A6A');

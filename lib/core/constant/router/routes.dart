@@ -4,6 +4,10 @@ import 'package:med_sal_app/view/screen/auth/check_email_screen.dart';
 import 'package:med_sal_app/view/screen/auth/field_login_screen.dart';
 import 'package:med_sal_app/view/screen/auth/verify_code_screen.dart';
 import 'package:med_sal_app/view/screen/categories/categories_screen.dart';
+import 'package:med_sal_app/view/screen/categories/hospital_screen.dart';
+import 'package:med_sal_app/view/screen/categories/pharmacies_screen.dart';
+import 'package:med_sal_app/view/screen/categories/products_booking.dart';
+import 'package:med_sal_app/view/screen/categories/services_booking_screen.dart';
 import 'package:med_sal_app/view/screen/home/home_screen.dart';
 import 'package:med_sal_app/view/screen/settings/profile_screen.dart';
 import 'package:med_sal_app/view/screen/settings/reset_password_screen.dart';
@@ -11,6 +15,8 @@ import 'package:med_sal_app/view/screen/settings/settings_screen.dart';
 import '../../../view/screen/auth/forgot_password_screen.dart';
 import '../../../view/screen/auth/login_screen.dart';
 import '../../../view/screen/auth/register_screen.dart';
+import '../../../view/screen/categories/clinic_screen.dart';
+import '../../../view/screen/categories/labs_screen.dart';
 import '../../../view/screen/language.dart';
 import 'app_routes.dart';
 
@@ -41,5 +47,11 @@ List<GetPage<dynamic>>? routes = [
   // home
   GetPage(name: AppRoute.home, page: () => HomeScreen()),
   //Categories
-  GetPage(name: AppRoute.categories, page: () => CategoriesScreen())
+  GetPage(name: AppRoute.categories, page: () => CategoriesScreen()),
+  GetPage(name: AppRoute.hospital, page: () => HospitalScreen()),
+  GetPage(name: AppRoute.labs, page: () => LabsScreen()),
+  GetPage(name: AppRoute.clinic, page: () => ClinicScreen()),
+  GetPage(name: AppRoute.pharmacies, page: () => PharmaciesScreen()),
+  GetPage(name: AppRoute.productsBooking, page: () => ProductsBookingScreen()),
+  GetPage(name: AppRoute.servicesBooking, page: () => ServicesBookingScreen()),
 ];

@@ -4,8 +4,8 @@ import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
 
 import '../../../core/constant/color_scheme/color_manger.dart';
-import '../../../core/constant/generated/assets.dart';
 import '../../../core/constant/theme/constants.dart';
+import '../../../generated/assets.dart';
 
 class ClientSectionWidget extends StatelessWidget {
   const ClientSectionWidget({Key? key}) : super(key: key);

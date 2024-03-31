@@ -7,9 +7,8 @@ import 'package:med_sal_app/core/constant/router/app_routes.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
 import 'package:med_sal_app/view/widgets/auth/custom_text_field.dart';
-
-import '../../../core/constant/generated/assets.dart';
 import '../../../core/shared/app_button.dart';
+import '../../../generated/assets.dart';
 
 class LoginScreen extends StatelessWidget {
   LoginScreen({Key? key}) : super(key: key);

@@ -5,7 +5,7 @@ import 'package:med_sal_app/core/shared/app_text.dart';
 import 'package:med_sal_app/core/shared/container_header_widget.dart';
 
 import '../../../core/constant/color_scheme/color_manger.dart';
-import '../../../core/constant/generated/assets.dart';
+import '../../../generated/assets.dart';
 import '../../widgets/settings/card_settings_widget.dart';
 
 class SettingsScreen extends StatelessWidget {

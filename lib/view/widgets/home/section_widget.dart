@@ -6,10 +6,16 @@ import '../../../core/shared/app_text.dart';
 
 class SectionWidget extends StatelessWidget {
   const SectionWidget(
-      {Key? key, required this.onTap, required this.titleSection})
+      {Key? key,
+      this.onTap,
+      required this.titleSection,
+      this.backgroundColor,
+      this.colorText})
       : super(key: key);
   final String titleSection;
-  final void Function() onTap;
+  final void Function()? onTap;
+  final Color? backgroundColor;
+  final Color? colorText;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -18,14 +24,15 @@ class SectionWidget extends StatelessWidget {
         height: 54.h,
         width: 105.w,
         decoration: BoxDecoration(
-            color: ColorManager.secondaryPrim,
+            color: backgroundColor ?? ColorManager.secondaryPrim,
+            border: Border.all(color: ColorManager.secondaryPrim, width: 3.r),
             borderRadius: BorderRadius.only(
                 topRight: Radius.circular(25.r),
                 bottomLeft: Radius.circular(25.r))),
         child: Center(
           child: AppText(
             titleSection,
-            color: ColorManager.white,
+            color: colorText ?? ColorManager.white,
             textAlign: TextAlign.center,
           ),
         ),

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import '../../generated/assets.dart';
 import '../constant/color_scheme/color_manger.dart';
 import 'app_text.dart';
+import 'container_header_widget.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
@@ -10,11 +13,15 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: AppText(
-        title,
-        color: ColorManager.grey,
+      backgroundColor: ColorManager.secondaryGrey,
+      flexibleSpace: Container(
+        color: ColorManager.secondaryGrey,
       ),
-      centerTitle: true, // Center the title
+      title: ContainerHeaderWidget(
+        textContainer: title,
+        imageContainer: Assets.iconsArrowBack,
+      ),
+      toolbarHeight: 200.h,
     );
   }
 

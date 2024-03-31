@@ -39,7 +39,7 @@ TextTheme textTheme = TextTheme(
     height: 21.fromFigmaHeight(14),
   ),
   headlineSmall: TextStyle(
-    fontSize: 24.0.sp,
+    fontSize: 30.0.sp,
     fontWeight: FontWeight.w600,
     fontFamily: fontFamily,
     letterSpacing: -0.5.w,

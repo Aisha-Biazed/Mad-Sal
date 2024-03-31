@@ -5,8 +5,8 @@ import 'package:med_sal_app/core/shared/app_button.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
 import '../../../core/constant/color_scheme/color_manger.dart';
-import '../../../core/constant/generated/assets.dart';
 import '../../../core/constant/router/app_routes.dart';
+import '../../../generated/assets.dart';
 
 class FieldLoginScreen extends StatelessWidget {
   const FieldLoginScreen({Key? key}) : super(key: key);

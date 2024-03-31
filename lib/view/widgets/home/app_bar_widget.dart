@@ -4,10 +4,10 @@ import 'package:get/get.dart';
 import 'package:med_sal_app/core/constant/router/app_routes.dart';
 
 import '../../../core/constant/color_scheme/color_manger.dart';
-import '../../../core/constant/generated/assets.dart';
 import '../../../core/localization/change_local.dart';
 import '../../../core/shared/app_image.dart';
 import '../../../core/shared/app_text.dart';
+import '../../../generated/assets.dart';
 
 class AppBarWidget extends GetView<LocaleController> {
   AppBarWidget({Key? key}) : super(key: key);

@@ -12,6 +12,7 @@ class ContainerHeaderWidget extends StatelessWidget {
       required this.textContainer,
       this.imageContainer,
       this.onTap,
+      this.textColor,
       this.backgroundColor})
       : super(key: key);
 
@@ -19,6 +20,7 @@ class ContainerHeaderWidget extends StatelessWidget {
   final String? imageContainer;
   void Function()? onTap;
   final Color? backgroundColor;
+  final Color? textColor;
 
   @override
   Widget build(BuildContext context) {

@@ -5,7 +5,7 @@ import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
 import 'package:med_sal_app/core/shared/container_header_widget.dart';
 
-import '../../../core/constant/generated/assets.dart';
+import '../../../generated/assets.dart';
 import '../../widgets/settings/card_profile_widget.dart';
 
 class ProfileScreen extends StatelessWidget {

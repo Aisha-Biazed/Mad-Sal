@@ -5,7 +5,7 @@ import 'package:med_sal_app/core/constant/router/app_routes.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
 import '../../../core/constant/color_scheme/color_manger.dart';
-import '../../../core/constant/generated/assets.dart';
+import '../../../generated/assets.dart';
 import '../../widgets/home/about_section_widget.dart';
 import '../../widgets/home/app_bar_widget.dart';
 import '../../widgets/home/clients_section_widget.dart';
