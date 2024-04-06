@@ -20,7 +20,7 @@ TextTheme textTheme = TextTheme(
       fontWeight: FontWeight.w700,
       height: 40.fromFigmaHeight(35)),
   displaySmall: TextStyle(
-    fontSize: 36.0.sp,
+    fontSize: 40.0.sp,
     fontWeight: FontWeight.w400,
     fontFamily: fontFamily,
   ),
@@ -62,12 +62,10 @@ TextTheme textTheme = TextTheme(
     fontWeight: FontWeight.w500,
     height: 24.fromFigmaHeight(20),
   ),
-  //edit
   titleSmall: TextStyle(
-    fontSize: 30.0.sp,
+    fontSize: 20.0.sp,
     fontWeight: FontWeight.w500,
     fontFamily: fontFamily,
-    height: 24.fromFigmaHeight(30),
   ),
 
   ///Label edit style

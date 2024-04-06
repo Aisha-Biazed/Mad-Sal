@@ -13,6 +13,7 @@ import '../../widgets/home/drawer_widget.dart';
 import '../../widgets/home/search_field_widget.dart';
 import '../../widgets/home/section_widget.dart';
 import '../../widgets/home/services_section-widget.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -52,7 +53,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: AppText.displaySmall(
                       "Med-Sal",
                       color: ColorManager.primary,
-                    ),
+                    ).animate(onComplete: (c) => c.repeat()).shimmer(
+                        delay: const Duration(milliseconds: 3500),
+                        duration: const Duration(milliseconds: 2400)),
                   ),
                   8.verticalSpace,
                   const SearchFieldWidget(),
@@ -91,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       30.horizontalSpace,
                       AppImage.asset(
                         Assets.imagesDoctor,
-                      ),
+                      )
                     ],
                   ),
                   AppText.titleMedium(
