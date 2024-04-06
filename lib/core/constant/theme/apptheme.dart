@@ -35,7 +35,7 @@ ThemeData themeEnglish = ThemeData(
 );
 
 ThemeData themeArabic = ThemeData(
-  fontFamily: "Cairo",
+  fontFamily: "sst-arabic",
   textTheme: TextTheme(
       headline1: TextStyle(
           fontWeight: FontWeight.bold, fontSize: 22, color: ColorManager.dark),

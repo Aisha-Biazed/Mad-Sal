@@ -20,9 +20,6 @@ class ForgotPasswordScreen extends StatelessWidget {
           ContainerHeaderWidget(
             textContainer: "forget".tr,
             imageContainer: Assets.iconsArrowCircleLeft,
-            onTap: () {
-              Get.back();
-            },
           ),
           Padding(
             padding: REdgeInsetsDirectional.only(start: 18.w, end: 18.w),
@@ -45,7 +42,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                 40.verticalSpace,
                 AppButton.field(
                   onPressed: () {
-                    Get.toNamed(AppRoute.resetPassword);
+                    Get.toNamed(AppRoute.checkEmail);
                   },
                   titleWidget: AppText.titleSmall(
                     "verification_code".tr,

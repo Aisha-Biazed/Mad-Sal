@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 import 'package:med_sal_app/core/shared/app_button.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
 import 'package:med_sal_app/core/shared/container_header_widget.dart';
 
 import '../../../../../core/constant/color_scheme/color_manger.dart';
+import '../../../../../core/constant/router/app_routes.dart';
 import '../../../../../generated/assets.dart';
 import '../../widgets/settings/card_settings_widget.dart';
 
@@ -35,7 +37,9 @@ class SettingsScreen extends StatelessWidget {
                 CardSettingsWidget(
                   title: "Change Password",
                   imageCard: Assets.iconsSyncLock,
-                  onTap: () {},
+                  onTap: () {
+                    Get.toNamed(AppRoute.resetPassword);
+                  },
                 ),
                 CardSettingsWidget(
                   title: "Help",
@@ -48,7 +52,9 @@ class SettingsScreen extends StatelessWidget {
                   onTap: () {},
                 ),
                 AppButton.field(
-                  onPressed: () {},
+                  onPressed: () {
+                    Get.offNamed(AppRoute.home);
+                  },
                   imagePath: Assets.iconsMoveItem,
                   titleWidget: Padding(
                     padding: REdgeInsetsDirectional.only(start: 26.w),

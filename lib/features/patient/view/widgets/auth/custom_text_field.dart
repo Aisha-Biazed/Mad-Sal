@@ -21,7 +21,8 @@ class CustomTextField extends StatelessWidget {
       this.textDirection,
       this.readOnly = false,
       this.labelStyle,
-      this.fillColor})
+      this.fillColor,
+      this.contentPadding})
       : super(key: key);
   final String? label;
   final bool readOnly;
@@ -37,11 +38,12 @@ class CustomTextField extends StatelessWidget {
   final TextAlign? textAlign;
   final TextDirection? textDirection;
   final Color? fillColor;
+  final EdgeInsetsGeometry? contentPadding;
 
   @override
   Widget build(BuildContext context) {
     return RSizedBox(
-      height: 90.h,
+      height: height ?? 90.h,
       child: TextFormField(
         cursorColor: ColorManager.grey,
         readOnly: readOnly,
@@ -55,7 +57,6 @@ class CustomTextField extends StatelessWidget {
               context.textTheme.labelSmall?.copyWith(
                 color: ColorManager.dark,
               ),
-
           hintText: hintText,
           hintStyle: hintStyle ??
               context.textTheme.labelSmall?.copyWith(
@@ -66,8 +67,9 @@ class CustomTextField extends StatelessWidget {
           hintMaxLines: hintMaxLines,
           isDense: true,
 
-          contentPadding: REdgeInsetsDirectional.only(
-              end: 16.w, start: 16.w, top: 40.h, bottom: 0.h),
+          contentPadding: contentPadding ??
+              REdgeInsetsDirectional.only(
+                  end: 16.w, start: 16.w, top: 40.h, bottom: 0.h),
           fillColor: ColorManager.surface,
           focusColor: ColorManager.surface,
           // alignLabelWithHint: alignLabelWithHint,

@@ -28,7 +28,7 @@ class ContainerBottomWidget extends StatelessWidget {
               children: [
                 AppButton.field(
                   onPressed: () {
-                    Get.toNamed(AppRoute.register);
+                    Get.toNamed(AppRoute.registerService);
                   },
                   titleWidget: AppText.titleMedium(
                     "join_now".tr,

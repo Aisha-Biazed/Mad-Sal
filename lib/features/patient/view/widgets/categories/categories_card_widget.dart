@@ -26,7 +26,11 @@ class CategoriesCardWidget extends StatelessWidget {
           borderRadius: BorderRadius.all(Radius.circular(25.0.r)),
         ),
         shadowColor: ColorManager.dark,
-        margin: REdgeInsetsDirectional.only(start: 16.w, end: 17.w, top: 16.h),
+        margin: REdgeInsetsDirectional.only(
+          start: 16.w,
+          end: 17.w,
+          top: 16.h,
+        ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -42,13 +46,15 @@ class CategoriesCardWidget extends StatelessWidget {
                 AppText.bodyMedium("Description"),
                 8.verticalSpace,
                 AppText.bodySmall(
-                  "Lorem ipsum dolor sit amet\n consectetur. Neque eget viverra amet\n risus lorem egestas viverra in risus.\n Ullamcorper nunc eget lacus feugiat\n risus sit habitant ullamcorper.",
+                  "Lorem ipsum dolor sit amet\nconsectetur. Neque eget  amet\nrisus lorem in risus.\nUllamcorper  lacus feugiat\nrisus sit habitant ullamcorper.\n",
                 ),
               ],
             ),
             AppImage.asset(
               imageCategories,
               fit: BoxFit.fitHeight,
+              width: 114.w,
+              height: 182.h,
             )
           ],
         ),

@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:med_sal_app/core/shared/app_button.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
-
 import '../../../../../core/constant/color_scheme/color_manger.dart';
 import '../../../../../generated/assets.dart';
 
@@ -17,7 +16,7 @@ class DetailsScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         // mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          100.verticalSpace,
+          50.verticalSpace,
           Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
@@ -33,7 +32,7 @@ class DetailsScreen extends StatelessWidget {
               children: [
                 AppImage.asset(Assets.imagesDetails),
                 Positioned(
-                    top: 230.h,
+                    top: 260.h,
                     child: Card(
                       elevation: 4.0,
                       color: ColorManager.white,
@@ -96,7 +95,7 @@ class DetailsScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 AppText.labelSmall(
-                                  "Descreption",
+                                  "Description",
                                   color: ColorManager.primary,
                                 ),
                                 AppText.labelSmall(
@@ -105,6 +104,7 @@ class DetailsScreen extends StatelessWidget {
                             ),
                             10.verticalSpace,
                             AppButton.field(
+                              backgroundColor: ColorManager.secondaryPrim,
                               onPressed: () {},
                               titleWidget: AppText(
                                 "Buy Now ",

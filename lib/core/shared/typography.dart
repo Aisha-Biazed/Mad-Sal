@@ -7,12 +7,13 @@ const fontFamily = 'Almarai';
 
 TextTheme textTheme = TextTheme(
   //edit style
-
+/////dasf
   displayLarge: TextStyle(
       fontSize: 35.0.sp,
       fontWeight: FontWeight.w400,
       fontFamily: fontFamily,
       height: 1.5),
+
   displayMedium: TextStyle(
       fontSize: 35.0.sp,
       fontFamily: fontFamily,
@@ -39,11 +40,11 @@ TextTheme textTheme = TextTheme(
     height: 21.fromFigmaHeight(14),
   ),
   headlineSmall: TextStyle(
-    fontSize: 30.0.sp,
+    fontSize: 24.0.sp,
     fontWeight: FontWeight.w600,
     fontFamily: fontFamily,
     letterSpacing: -0.5.w,
-    height: 32.fromFigmaHeight(24),
+    height: 20.fromFigmaHeight(24),
   ),
 
   ///Title
@@ -104,11 +105,11 @@ TextTheme textTheme = TextTheme(
     height: 20.fromFigmaHeight(18),
     fontFamily: fontFamily,
   ),
-  ////Refactored to malum
+  ////editt
   bodySmall: TextStyle(
-    fontSize: 12.0.sp,
+    fontSize: 16.0.sp,
     fontWeight: FontWeight.w400,
-    height: 13.39.fromFigmaHeight(12),
+    height: 16.39.fromFigmaHeight(16),
     fontFamily: fontFamily,
   ),
 );

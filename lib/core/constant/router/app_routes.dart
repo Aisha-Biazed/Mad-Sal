@@ -26,4 +26,16 @@ class AppRoute {
   static const String details = "/details";
   //navigation
   static const String navigation = "/navigation";
+  //Service Provider
+  static const String registerService = "/register_service";
+  static const String stateBooking = "/stateBooking";
+  static const String editServices = "/editServices";
+  static const String editProducts = "/editProducts";
+  static const String addServices = "/addServices";
+  static const String addProducts = "/addProducts";
+//doctor
+  static const String doctorCategories = "/doctorCategories";
+  static const String dentistry = "/dentistry";
+  static const String optics = "/optics";
+  static const String availableDoctor = "/availableDoctor";
 }

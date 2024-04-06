@@ -9,16 +9,27 @@ import '../../../../../generated/assets.dart';
 import '../../widgets/home/about_section_widget.dart';
 import '../../widgets/home/app_bar_widget.dart';
 import '../../widgets/home/clients_section_widget.dart';
+import '../../widgets/home/drawer_widget.dart';
 import '../../widgets/home/search_field_widget.dart';
 import '../../widgets/home/section_widget.dart';
 import '../../widgets/home/services_section-widget.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
+      endDrawer: Drawer(
+        surfaceTintColor: ColorManager.mainGrey,
+        width: 251.w,
+        child: const DrawerWidget(),
+      ),
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: ColorManager.secondaryGrey,

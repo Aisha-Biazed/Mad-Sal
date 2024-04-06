@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 import '../../../../../core/constant/color_scheme/color_manger.dart';
+import '../../../../../core/constant/router/app_routes.dart';
 import '../../../../../core/shared/app_image.dart';
 import '../../../../../core/shared/app_text.dart';
 import '../../../../../generated/assets.dart';
 import '../home/section_widget.dart';
 import 'custom_scroll_cat_widget.dart';
 
-class DetailsCategoriesWidget extends StatelessWidget {
-  const DetailsCategoriesWidget(
+class DetailsWidget extends StatelessWidget {
+  const DetailsWidget(
       {Key? key,
       required this.titleCategories,
       required this.imageService1,
@@ -83,6 +86,9 @@ class DetailsCategoriesWidget extends StatelessWidget {
                     titleSection: 'Services',
                     backgroundColor: ColorManager.white,
                     colorText: ColorManager.dark,
+                    onTap: () {
+                      Get.toNamed(AppRoute.servicesBooking);
+                    },
                   ),
                   AppImage.asset(Assets.iconsCirclerVer)
                 ],
@@ -100,6 +106,9 @@ class DetailsCategoriesWidget extends StatelessWidget {
                     titleSection: 'Products',
                     backgroundColor: ColorManager.white,
                     colorText: ColorManager.dark,
+                    onTap: () {
+                      Get.toNamed(AppRoute.productsBooking);
+                    },
                   ),
                   AppImage.asset(Assets.iconsCircler)
                 ],

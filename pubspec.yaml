@@ -45,4 +45,10 @@ flutter:
         - asset: assets/fonts/Almarai-ExtraBold.ttf
         - asset: assets/fonts/Almarai-Light.ttf
         - asset: assets/fonts/Almarai-Regular.ttf
+    - family: sst-arabic
+      fonts:
+        - asset: fonts/sst_arabic_bold.ttf
+        - asset: fonts/sst_arabic_light.ttf
+        - asset: fonts/sst_arabic_medium.ttf
+        - asset: fonts/sst_arabic_roman.ttf
 

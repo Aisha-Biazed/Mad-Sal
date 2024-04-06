@@ -19,7 +19,7 @@ class AppBarWidget extends GetView<LocaleController> {
       children: [
         GestureDetector(
             onTap: () {
-              Get.toNamed(AppRoute.settings);
+              Get.toNamed(AppRoute.profile);
             },
             child: AppImage.asset(Assets.iconsUser)),
         24.horizontalSpace,
@@ -55,8 +55,7 @@ class AppBarWidget extends GetView<LocaleController> {
             )),
         8.horizontalSpace,
         AppImage.asset(Assets.iconsFilterAlt),
-        13.horizontalSpace,
-        AppImage.asset(Assets.iconsList),
+        13.horizontalSpace
       ],
     );
   }

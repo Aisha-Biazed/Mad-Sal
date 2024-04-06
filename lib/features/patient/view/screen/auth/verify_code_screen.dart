@@ -6,6 +6,7 @@ import 'package:med_sal_app/core/shared/app_text.dart';
 import 'package:pinput/pinput.dart';
 
 import '../../../../../core/constant/color_scheme/color_manger.dart';
+import '../../../../../core/constant/router/app_routes.dart';
 
 class VerifyCodeScreen extends StatelessWidget {
   const VerifyCodeScreen({Key? key}) : super(key: key);
@@ -54,9 +55,14 @@ class VerifyCodeScreen extends StatelessWidget {
               children: [
                 AppText.bodyMedium("dont_receive".tr),
                 10.horizontalSpace,
-                AppText.bodyMedium(
-                  "resend".tr,
-                  color: ColorManager.primary,
+                GestureDetector(
+                  onTap: () {
+                    Get.toNamed(AppRoute.checkEmail);
+                  },
+                  child: AppText.bodyMedium(
+                    "resend".tr,
+                    color: ColorManager.primary,
+                  ),
                 )
               ],
             )

@@ -17,6 +17,7 @@ class CategoriesScreen extends StatelessWidget {
       backgroundColor: ColorManager.white,
       appBar: AppBar(
         backgroundColor: ColorManager.secondaryGrey,
+        automaticallyImplyLeading: false,
         flexibleSpace: Container(
           color: ColorManager.secondaryGrey,
         ),
@@ -33,6 +34,9 @@ class CategoriesScreen extends StatelessWidget {
             CategoriesCardWidget(
               titleCategories: 'Doctor',
               imageCategories: Assets.imagesDocotorCat,
+              onTap: () {
+                Get.toNamed(AppRoute.doctorCategories);
+              },
             ),
             CategoriesCardWidget(
               onTap: () {
