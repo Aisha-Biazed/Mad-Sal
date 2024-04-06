@@ -4,6 +4,9 @@ import 'package:med_sal_app/features/patient/view/screen/doctor/available_doctor
 import 'package:med_sal_app/features/patient/view/screen/doctor/dentisry_screen.dart';
 import 'package:med_sal_app/features/patient/view/screen/doctor/doctor_categories_screen.dart';
 import 'package:med_sal_app/features/patient/view/screen/doctor/optics_screen.dart';
+import 'package:med_sal_app/features/patient/view/screen/order/my_order_screen.dart';
+import 'package:med_sal_app/features/patient/view/screen/order/order_faild_screen.dart';
+import 'package:med_sal_app/features/patient/view/screen/order/order_success_screen.dart';
 import 'package:med_sal_app/features/service_provider/view/screen/booking/add_products_screen.dart';
 import 'package:med_sal_app/features/service_provider/view/screen/booking/add_service_screen.dart';
 import 'package:med_sal_app/features/service_provider/view/screen/booking/editing_products_screen.dart';
@@ -24,6 +27,7 @@ import '../../../features/patient/view/screen/categories/products_booking_screen
 import '../../../features/patient/view/screen/categories/services_booking_screen.dart';
 import '../../../features/patient/view/screen/home/home_screen.dart';
 import '../../../features/patient/view/screen/language.dart';
+import '../../../features/patient/view/screen/order/order_details_screen.dart';
 import '../../../features/patient/view/screen/settings/profile_screen.dart';
 import '../../../features/patient/view/screen/settings/reset_password_screen.dart';
 import '../../../features/patient/view/screen/settings/settings_screen.dart';
@@ -80,4 +84,9 @@ List<GetPage<dynamic>>? routes = [
   GetPage(name: AppRoute.dentistry, page: () => DentistryScreen()),
   GetPage(name: AppRoute.optics, page: () => OpticsScreen()),
   GetPage(name: AppRoute.availableDoctor, page: () => AvailableDoctorsScreen()),
+  //My order
+  GetPage(name: AppRoute.myOrder, page: () => MyOrderScreen()),
+  GetPage(name: AppRoute.orderSuccess, page: () => OrderSuccessScreen()),
+  GetPage(name: AppRoute.orderFailed, page: () => OrderFailedScreen()),
+  GetPage(name: AppRoute.detailsOrder, page: () => OrderDetailsScreen()),
 ];

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:med_sal_app/core/constant/router/app_routes.dart';
 import 'package:med_sal_app/core/shared/app_button.dart';
 import 'package:med_sal_app/core/shared/app_image.dart';
 import 'package:med_sal_app/core/shared/app_text.dart';
@@ -105,7 +107,9 @@ class DetailsScreen extends StatelessWidget {
                             10.verticalSpace,
                             AppButton.field(
                               backgroundColor: ColorManager.secondaryPrim,
-                              onPressed: () {},
+                              onPressed: () {
+                                Get.toNamed(AppRoute.myOrder);
+                              },
                               titleWidget: AppText(
                                 "Buy Now ",
                                 color: ColorManager.white,

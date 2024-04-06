@@ -80,7 +80,7 @@ class LoginScreen extends StatelessWidget {
                 38.verticalSpace,
                 AppButton.field(
                   onPressed: () {
-                    Get.toNamed(AppRoute.register);
+                    Get.toNamed(AppRoute.categories);
                   },
                   titleWidget: AppText.titleSmall(
                     "login".tr,

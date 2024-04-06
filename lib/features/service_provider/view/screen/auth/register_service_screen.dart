@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-
 import '../../../../../core/constant/color_scheme/color_manger.dart';
 import '../../../../../core/constant/router/app_routes.dart';
 import '../../../../../core/shared/app_button.dart';
 import '../../../../../core/shared/app_text.dart';
 import '../../../../../core/shared/container_header_widget.dart';
-import '../../../../../generated/assets.dart';
 import '../../../../patient/view/widgets/auth/custom_text_field.dart';
 
 class RegisterServiceScreen extends StatelessWidget {
@@ -121,7 +119,7 @@ class RegisterServiceScreen extends StatelessWidget {
               70.verticalSpace,
               AppButton.field(
                 onPressed: () {
-                  Get.toNamed(AppRoute.checkEmail);
+                  Get.toNamed(AppRoute.categories);
                 },
                 titleWidget:
                     AppText.titleSmall("Sign up", color: ColorManager.white),

@@ -14,7 +14,6 @@ class AppRoute {
   static const String profile = "/profile";
   //Home
   static const String home = "/home";
-  static const String carDetails = "/car_details";
   //Categories
   static const String categories = "/categories";
   static const String hospital = "/hospital";
@@ -38,4 +37,9 @@ class AppRoute {
   static const String dentistry = "/dentistry";
   static const String optics = "/optics";
   static const String availableDoctor = "/availableDoctor";
+  //My order
+  static const String myOrder = "/myOrder";
+  static const String orderSuccess = "/orderSuccess";
+  static const String orderFailed = "/orderFailed";
+  static const String detailsOrder = "/detailsOrder";
 }

@@ -31,17 +31,14 @@ class ColorManager {
   static Color white = HexColor('#FFFFFF');
   static Color dark = HexColor('#000000');
   static Color grey = HexColor('#6A6A6A');
-  static Color hint = HexColor('#9E9E9EFF');
+  static Color hint = HexColor('#807A7A');
   static Color purple = HexColor('#E0E1EF');
   static Color secondaryGrey = HexColor('#F5F5F5');
-  static Color amber = HexColor('#ffc107');
-  static Color btnColor = HexColor('#0f172a');
   static Color outline = HexColor('#121A25');
   static Color onSurfaceVariant = HexColor('#BEBEBE');
   static Color surface = HexColor('#FFFFFF');
   static Color onPrimaryContainer = HexColor('#F1F1F1');
   static Color secondary = HexColor('#121A25');
   static Color green = HexColor('#AF50FF');
-  static Color red = HexColor('#F44B26');
-  static Color onSurface = HexColor('#1A1C18');
+  static Color red = HexColor('#BE1313');
 }

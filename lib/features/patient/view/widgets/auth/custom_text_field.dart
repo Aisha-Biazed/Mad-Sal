@@ -66,7 +66,6 @@ class CustomTextField extends StatelessWidget {
           floatingLabelAlignment: FloatingLabelAlignment.start,
           hintMaxLines: hintMaxLines,
           isDense: true,
-
           contentPadding: contentPadding ??
               REdgeInsetsDirectional.only(
                   end: 16.w, start: 16.w, top: 40.h, bottom: 0.h),

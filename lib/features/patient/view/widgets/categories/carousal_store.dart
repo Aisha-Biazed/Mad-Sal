@@ -17,12 +17,15 @@ class CarousalStore extends StatelessWidget {
       children: [
         CarouselSlider(
           options: CarouselOptions(
-              height: 136.h, enlargeCenterPage: true, viewportFraction: 0.4),
+            height: 136.h,
+            enlargeCenterPage: true,
+            viewportFraction: 0.4,
+          ),
           items: [
-            1,
-            2,
-            3,
-          ].map((i) {
+            Assets.imagesPayment1,
+            Assets.imagesPayment2,
+            Assets.imagesVisa,
+          ].map((imageAsset) {
             return Builder(
               builder: (BuildContext context) {
                 return Container(
@@ -34,7 +37,7 @@ class CarousalStore extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: AppImage.asset(
-                    i == 3 ? Assets.imagesClinicCat : Assets.imagesLabCat,
+                    imageAsset,
                     fit: BoxFit.cover,
                   ),
                 );
