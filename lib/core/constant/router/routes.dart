@@ -26,7 +26,6 @@ import '../../../features/patient/view/screen/categories/pharmacies_screen.dart'
 import '../../../features/patient/view/screen/categories/products_booking_screen.dart';
 import '../../../features/patient/view/screen/categories/services_booking_screen.dart';
 import '../../../features/patient/view/screen/home/home_screen.dart';
-import '../../../features/patient/view/screen/language.dart';
 import '../../../features/patient/view/screen/order/order_details_screen.dart';
 import '../../../features/patient/view/screen/settings/profile_screen.dart';
 import '../../../features/patient/view/screen/settings/reset_password_screen.dart';
@@ -39,13 +38,6 @@ import 'app_routes.dart';
 
 List<GetPage<dynamic>>? routes = [
   // GetPage(name: "/", page: () => const Language(), middlewares: [MyMiddleWare()]),
-
-  //Splash
-  GetPage(
-    name: AppRoute.lang,
-    page: () => Language(),
-    // binding: SplashBinding()
-  ),
 //  Auth
   GetPage(
       name: AppRoute.login, page: () => LoginScreen(), binding: LoginBinding()),
