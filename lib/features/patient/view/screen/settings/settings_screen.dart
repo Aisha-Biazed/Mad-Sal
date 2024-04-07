@@ -32,7 +32,9 @@ class SettingsScreen extends StatelessWidget {
                 CardSettingsWidget(
                   title: "Edit My Profile",
                   imageCard: Assets.iconsEdit,
-                  onTap: () {},
+                  onTap: () {
+                    Get.toNamed(AppRoute.profile);
+                  },
                 ),
                 CardSettingsWidget(
                   title: "Change Password",

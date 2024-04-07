@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
-import '../core/services/services.dart';
+import '../../core/services/services.dart';
 
 abstract class LoginController extends GetxController {
   login();

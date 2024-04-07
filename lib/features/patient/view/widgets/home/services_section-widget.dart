@@ -33,7 +33,20 @@ class ServicesSectionWidget extends StatelessWidget {
         Row(
           children: [
             AppText(
-                "Lorem ipsum dolor sit amet \nconsectetur. Quis sollicitudin morbi\n nisi tincidunt lorem ."),
+                "Lorem ipsum dolor sit amet \nconsectetur. Quis sollicitudin morbi\n nisi tincidunt lorem."),
+            Padding(
+              padding: REdgeInsetsDirectional.only(top: 40.h),
+              child: Row(
+                children: [
+                  AppText(
+                    "See All",
+                    color: ColorManager.primary,
+                  ),
+                  10.horizontalSpace,
+                  AppImage.asset(Assets.iconsArrowForward)
+                ],
+              ),
+            ),
           ],
         ),
         84.verticalSpace,

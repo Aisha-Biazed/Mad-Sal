@@ -32,7 +32,7 @@ class ColorManager {
   static Color dark = HexColor('#000000');
   static Color grey = HexColor('#6A6A6A');
   static Color hint = HexColor('#807A7A');
-  static Color purple = HexColor('#E0E1EF');
+  static Color navColor = HexColor('#E4F2F0');
   static Color secondaryGrey = HexColor('#F5F5F5');
   static Color outline = HexColor('#121A25');
   static Color onSurfaceVariant = HexColor('#BEBEBE');

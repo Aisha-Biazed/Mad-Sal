@@ -34,6 +34,7 @@ import '../../../features/patient/view/screen/settings/settings_screen.dart';
 
 import '../../../features/service_provider/view/screen/auth/register_service_screen.dart';
 import '../../../features/service_provider/view/screen/booking/state_booking_screen.dart';
+import '../../shared/navigation_screen.dart';
 import 'app_routes.dart';
 
 List<GetPage<dynamic>>? routes = [
@@ -89,4 +90,6 @@ List<GetPage<dynamic>>? routes = [
   GetPage(name: AppRoute.orderSuccess, page: () => OrderSuccessScreen()),
   GetPage(name: AppRoute.orderFailed, page: () => OrderFailedScreen()),
   GetPage(name: AppRoute.detailsOrder, page: () => OrderDetailsScreen()),
+  //Navigation
+  GetPage(name: AppRoute.navigation, page: () => const NavigationScreen()),
 ];

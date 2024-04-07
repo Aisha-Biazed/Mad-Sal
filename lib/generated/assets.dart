@@ -18,6 +18,7 @@ class Assets {
       'assets/icons/arrow_back_ios_new.svg';
   static const String iconsArrowCircleLeft =
       'assets/icons/arrow_circle_left.svg';
+  static const String iconsArrowForward = 'assets/icons/arrow_forward.svg';
   static const String iconsCalendarClock = 'assets/icons/calendar_clock.svg';
   static const String iconsCall = 'assets/icons/call.svg';
   static const String iconsCircler = 'assets/icons/circler.svg';
